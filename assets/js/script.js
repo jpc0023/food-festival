@@ -1,3 +1,4 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 $(document).ready(function() {
   function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
